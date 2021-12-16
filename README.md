@@ -1,2 +1,2 @@
 # Tampermonkey-Scripts
-[Example](example.png)
+![Example](example.png)
