@@ -23,9 +23,6 @@ var counter = 0;
 
 function waitForElm(selector) {
     return new Promise(resolve => {
-        if (document.querySelector(selector)) {
-            return resolve(document.querySelector(selector));
-        }
 
         const observer = new MutationObserver(mutations => {
             if (document.querySelector(selector)) {
